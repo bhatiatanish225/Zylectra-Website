@@ -36,33 +36,39 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-to-br from-gray-50 to-emerald-50">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12 sm:mb-16 animate-fade-in-up">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+    <section id="features" className="py-20 bg-gradient-to-br from-gray-50 to-emerald-50 relative overflow-hidden">
+      {/* Decorative gradient blur */}
+      <div className="absolute -top-20 -right-20 w-72 h-72 bg-emerald-200 opacity-30 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-20 -left-20 w-72 h-72 bg-emerald-300 opacity-20 rounded-full blur-3xl"></div>
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        {/* Heading */}
+        <div className="text-center mb-16 animate-fade-in-up">
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6">
             Key Features
           </h2>
-          <div className="w-16 sm:w-24 h-1 bg-emerald-500 mx-auto mb-6 sm:mb-8"></div>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 mx-auto mb-8"></div>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
             Zylectra Orbit combines cutting-edge AI with real-world data to deliver 
             the most intelligent EV optimization platform available.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {/* Features grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="group bg-white p-6 sm:p-8 rounded-2xl border border-emerald-200 hover:border-emerald-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-up"
+              className="group bg-white/80 backdrop-blur-md p-8 rounded-2xl border border-emerald-200 shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-[1.02] animate-fade-in-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="bg-emerald-100 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-emerald-200 transition-colors">
-                <feature.icon className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-600" />
+              <div className="bg-gradient-to-br from-emerald-100 to-emerald-200 w-14 h-14 sm:w-16 sm:h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:from-emerald-200 group-hover:to-emerald-300 transition-colors shadow-inner">
+                <feature.icon className="w-7 h-7 sm:w-8 sm:h-8 text-emerald-600" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 sm:mb-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-emerald-700 transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+              <p className="text-base text-gray-600 leading-relaxed">
                 {feature.description}
               </p>
             </div>
