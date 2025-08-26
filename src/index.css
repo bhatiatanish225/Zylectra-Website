@@ -22,6 +22,10 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
+.logo-img {
+  background: transparent;  /* doesn’t remove existing white fill */
+  mix-blend-mode: multiply; /* makes the white less visible */
+}
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }

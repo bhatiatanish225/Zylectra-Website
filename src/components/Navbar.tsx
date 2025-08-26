@@ -37,11 +37,11 @@ const Navbar = () => {
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
-            {/* <img
-              src={zylectraLogo}
+            <img
+              src="src\assets\image.jpg"
               alt="Zylectra Logo"
-              className="w-10 h-10 object-contain"
-            /> */}
+              className="w-10 h-10 object-contain mix-blend-multiply"
+            />
             <span className="text-xl font-poppins font-bold text-gray-900">
               Zylectra
             </span>
