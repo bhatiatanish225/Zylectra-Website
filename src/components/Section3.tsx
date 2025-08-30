@@ -36,46 +36,53 @@ const SectionThree = () => {
           </button>
         </div>
 
-        {/* Screenshots Section */}
-      {/* Screenshots Section */}
-<div className="grid sm:grid-cols-3 gap-10 mt-12">
-  <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
-    <img 
-      src="src/assets/route.png"  
-      alt="Route Planning Screenshot" 
-      className="h-80 w-full object-contain rounded-xl mb-3"
-    />
+       
+    {/* Screenshots Section */}
+<div className="grid sm:grid-cols-3 gap-10 mt-16">
+  {/* Card 1 */}
+  <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
+    <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
+      <img 
+        src="src/assets/route.png"  
+        alt="Route Planning Screenshot" 
+        className="w-full h-full object-contain p-2 hover:scale-105 transition-transform"
+      />
+    </div>
+    <h3 className="text-lg font-semibold text-gray-800 mb-2">Smart Route Planning</h3>
     <p className="text-gray-600 text-sm leading-relaxed">
       Orbit plans routes that keep you confident — never worry about running out of charge.
     </p>
   </div>
 
-  <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
-    <img 
-      src="src/assets/charger.png" 
-      alt="Smart Charging Screenshot" 
-      className="h-80 w-full object-contain rounded-xl mb-3"
-    />
+  {/* Card 2 */}
+  <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
+    <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
+      <img 
+        src="src/assets/charger.png" 
+        alt="Smart Charging Screenshot" 
+        className="w-full h-full object-contain p-2 hover:scale-105 transition-transform"
+      />
+    </div>
+    <h3 className="text-lg font-semibold text-gray-800 mb-2">Optimized Charging</h3>
     <p className="text-gray-600 text-sm leading-relaxed">
       Smart charging recommendations ensure optimal stops along the way.
     </p>
   </div>
 
-  <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all">
-    <img 
-      src="src/assets/optimize.png" 
-      alt="Energy Tracking Screenshot" 
-      className="h-80 w-full object-contain rounded-xl mb-3"
-    />
+  {/* Card 3 */}
+  <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
+    <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
+      <img 
+        src="src/assets/optimize.png" 
+        alt="Energy Tracking Screenshot" 
+        className="w-full h-full object-contain p-2 hover:scale-105 transition-transform"
+      />
+    </div>
+    <h3 className="text-lg font-semibold text-gray-800 mb-2">Energy Insights</h3>
     <p className="text-gray-600 text-sm leading-relaxed">
       Track and optimize your EV’s energy usage seamlessly.
     </p>
   </div>
 </div>
 
-      </div>
-    </section>
-  );
-};
-
-export default SectionThree;
+</div> </section> ); }; export default SectionThree; 
