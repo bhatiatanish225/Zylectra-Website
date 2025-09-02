@@ -1,4 +1,4 @@
-// Section6.tsx
+
 import React from "react";
 import {
   CheckCircle,
@@ -13,19 +13,15 @@ const Section6 = () => {
   return (
     <section className="relative py-20 px-6 bg-gradient-to-br from-emerald-50 via-green-50 to-emerald-100">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        {/* <p className="pre-heading text-emerald-600 mb-2">
-          Smarter EV ownership
-        </p> */}
+        
         <h2 className="main-heading text-gray-900 mb-4">
           Be the EV owner everyone looks up to.
         </h2>
-        {/* <p className="sub-heading text-gray-600">
-          Compare the Zylectra way vs the old way of EV ownership.
-        </p> */}
+       
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {/* With Zylectra */}
+       
         <div className="bg-white rounded-2xl shadow-md border border-emerald-100 p-8 hover:shadow-xl transition-all">
           <h3 className="sub-heading font-semibold text-emerald-700 mb-6 flex items-center gap-2">
             <CheckCircle className="w-6 h-6 text-emerald-600" />
@@ -47,7 +43,7 @@ const Section6 = () => {
           </ul>
         </div>
 
-        {/* Without Zylectra */}
+       
         <div className="bg-white rounded-2xl shadow-md border border-gray-200 p-8 hover:shadow-xl transition-all">
           <h3 className="sub-heading font-semibold text-gray-700 mb-6 flex items-center gap-2">
             <AlertTriangle className="w-6 h-6 text-red-500" />

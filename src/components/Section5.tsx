@@ -1,4 +1,4 @@
-// SectionFive.tsx
+
 import React from "react";
 
 const SectionFive: React.FC = () => {

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-16 font-inter">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Brand */}
+          
           <div className="sm:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="relative">
@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Contact */}
+          
           <div>
             <h4 className="text-lg font-poppins font-semibold mb-6">Contact</h4>
             <div className="space-y-4">
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social */}
+         
           <div>
             <h4 className="text-lg font-poppins font-semibold mb-6">Follow Us</h4>
             <div className="flex gap-4">
@@ -66,7 +66,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-gray-500 text-sm">

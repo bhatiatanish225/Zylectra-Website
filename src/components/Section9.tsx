@@ -5,13 +5,13 @@ const Section9 = () => {
   return (
     <section className="py-20 bg-gradient-to-b from-white to-emerald-50">
       <div className="max-w-4xl mx-auto text-center px-6">
-        {/* Heading */}
+       
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
           Your EV is ready for the{" "}
           <span className="text-emerald-600">upgrade</span>. Are you?
         </h2>
 <br/>
-        {/* Copy */}
+        
         <div className="mt-6 space-y-4 text-lg text-gray-700 leading-relaxed">
           <p>
             <span className="font-semibold text-emerald-700">Orbit</span> is just
@@ -27,7 +27,6 @@ const Section9 = () => {
           </p>
         </div>
 
-        {/* CTA Button */}
         <div className="mt-10">
           <a
             onClick={() => scrollToSection("careers")}

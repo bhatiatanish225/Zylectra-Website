@@ -84,7 +84,7 @@ const Careers: React.FC = () => {
 
   return (
     <div id="careers" className="max-w-2xl mx-auto px-4 py-12">
-      {/* Main Heading */}
+      
       <h2 className="main-heading text-center mb-6">Join Our Team</h2>
 
       {isSubmittedSuccessfully ? (
@@ -93,7 +93,7 @@ const Careers: React.FC = () => {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Name */}
+          
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Full Name *
@@ -108,7 +108,7 @@ const Careers: React.FC = () => {
             />
           </div>
 
-          {/* Email */}
+       
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Email Address *
@@ -123,7 +123,7 @@ const Careers: React.FC = () => {
             />
           </div>
 
-          {/* Position */}
+          
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Position Applied For *
@@ -141,7 +141,7 @@ const Careers: React.FC = () => {
             </select>
           </div>
 
-          {/* Message */}
+          
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Why are you interested in this position? *

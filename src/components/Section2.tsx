@@ -20,20 +20,18 @@ const SectionTwo = () => {
   return (
     <section className="relative py-20 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        {/* Heading */}
+      
         <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-6 animate-fade-in">
           EVs promised freedom.{" "}
           <span className="text-emerald-600">But owners still feel stuck.</span>
         </h2>
 
-        {/* Subtext */}
         <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-12 animate-fade-in opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
           Right now, your EV is powerful hardware running on weak software.
           <br className="hidden sm:block" />
           And that’s why driving still feels stressful.
         </p>
 
-        {/* Animated List */}
         <div className="grid sm:grid-cols-3 gap-8 mt-10">
           {items.map((item, index) => (
             <div

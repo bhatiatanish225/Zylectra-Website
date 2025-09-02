@@ -24,13 +24,12 @@ const CallToAction = () => {
           </h2>
           <div className="w-16 sm:w-24 h-1 bg-emerald-300 mx-auto mb-6 sm:mb-8"></div>
 
-          {/* Sub Heading */}
+ 
           <p className="sub-heading text-emerald-100 mb-8 sm:mb-12 leading-relaxed px-4">
             Join the exclusive early access list and be among the first to experience 
             the future of intelligent EV operations.
           </p>
 
-          {/* Signup Form */}
           <form onSubmit={handleSubmit} className="max-w-md mx-auto px-4">
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-4 sm:mb-6">
               <div className="flex-1 relative">
@@ -64,7 +63,6 @@ const CallToAction = () => {
             </div>
           </form>
 
-          {/* Small Text (Pre-heading style) */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-emerald-200 pre-heading">
             <div className="flex items-center gap-2">
               <Check className="w-4 h-4" />

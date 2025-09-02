@@ -4,7 +4,6 @@ import { scrollToSection } from "../utils/scrollToSection";
 const Section8 = () => {
   return (
     <section className="py-24 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 relative overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-10 left-10 w-72 h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
         <div className="absolute top-20 right-20 w-64 h-64 bg-cyan-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
@@ -12,7 +11,6 @@ const Section8 = () => {
       </div>
 
       <div className="max-w-6xl mx-auto text-center px-6 relative z-10">
-        {/* Heading with enhanced styling */}
         <div className="mb-12">
           <h2 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-emerald-700 to-gray-800 leading-tight">
             Will you <span className="text-emerald-600 drop-shadow-sm">lead</span>
@@ -23,9 +21,7 @@ const Section8 = () => {
           <div className="mt-4 w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
         </div>
 
-        {/* Enhanced choice comparison */}
         <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Lead Option */}
           <div className="group relative h-full">
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
             <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-emerald-200 hover:border-emerald-300 transition-all duration-300 hover:shadow-xl h-full flex flex-col">
@@ -47,7 +43,6 @@ const Section8 = () => {
             </div>
           </div>
 
-          {/* Follow Option */}
           <div className="group relative h-full">
             <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity"></div>
             <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-xl h-full flex flex-col">
@@ -70,9 +65,7 @@ const Section8 = () => {
           </div>
         </div>
 
-        {/* Enhanced Buttons */}
         <div className="mt-16 flex flex-col sm:flex-row justify-center gap-6 items-center">
-          {/* Lead Button */}
           <button 
             onClick={() => scrollToSection("careers")} 
             className="group relative px-12 py-5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-bold text-lg rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
@@ -90,7 +83,6 @@ const Section8 = () => {
             <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
           </button>
 
-          {/* Follow Button */}
           <button className="group relative px-12 py-5 bg-white border-2 border-gray-300 text-gray-700 font-semibold text-lg rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 hover:bg-gray-50">
             <div className="flex items-center">
               <svg className="mr-3 w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,7 +96,6 @@ const Section8 = () => {
           </button>
         </div>
 
-        {/* Call to action subtitle */}
         <p className="mt-8 text-gray-600 text-lg font-medium">
           The choice is yours. The future is now.
         </p>
