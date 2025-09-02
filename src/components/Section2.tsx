@@ -33,20 +33,60 @@ const SectionTwo = () => {
         </p>
 
         <div className="grid sm:grid-cols-3 gap-8 mt-10">
-          {items.map((item, index) => (
-            <div
-              key={index}
-              className={`bg-gray-50 hover:bg-emerald-50 transition-all duration-500 rounded-2xl shadow-md p-8 flex flex-col items-center justify-center text-center transform hover:-translate-y-2 opacity-0 animate-fade-up`}
-              style={{
-                animationDelay: `${index * 0.3 + 0.4}s`,
-                animationFillMode: "forwards",
-              }}
-            > 
-              <div className="mb-4">{item.icon}</div>
-              <p className="text-lg text-gray-700 font-medium">{item.text}</p>
-            </div>
-          ))}
-        </div>
+
+  
+  <div
+    className="bg-gray-50 hover:bg-emerald-50 transition-all duration-500 rounded-2xl shadow-md p-8 flex flex-col items-center justify-center text-center transform hover:-translate-y-2 opacity-0 animate-fade-up"
+    style={{
+      animationDelay: '0.4s',
+      animationFillMode: "forwards",
+      
+    }}
+  >
+    <div className="mb-6 flex items-center justify-center h-12 w-12">
+      
+      {items[0].icon}
+    </div>
+    <p className="text-lg text-gray-700 font-medium">{items[0].text}</p>
+  </div>
+
+ 
+  <div
+    className="bg-gray-50 hover:bg-emerald-50 transition-all duration-500 rounded-2xl shadow-md p-8 flex flex-col items-center justify-center text-center transform hover:-translate-y-2 opacity-0 animate-fade-up"
+    style={{
+      animationDelay: '0.7s',
+      animationFillMode: "forwards",
+      marginTop: '-4px', 
+    }}
+  >
+    <div className="mb-6 flex items-center justify-center h-12 w-12">
+     
+      {items[1].icon}
+    </div>
+    <br />
+    <p className="text-lg text-gray-700 font-medium">{items[1].text}</p>
+    
+  </div>
+
+  {/* Third Card */}
+  <div
+    className="bg-gray-50 hover:bg-emerald-50 transition-all duration-500 rounded-2xl shadow-md p-8 flex flex-col items-center justify-center text-center transform hover:-translate-y-2 opacity-0 animate-fade-up"
+    style={{
+      animationDelay: '1.0s',
+      animationFillMode: "forwards",
+      // marginTop: '0', // adjust if needed
+    }}
+  >
+    <div className="mb-6 flex items-center justify-center h-12 w-12">
+      {/* Put third icon here */}
+      {items[2].icon}
+    </div>
+    <p className="text-lg text-gray-700 font-medium">{items[2].text}</p>
+  </div>
+
+</div>
+
+
       </div>
     </section>
   );
