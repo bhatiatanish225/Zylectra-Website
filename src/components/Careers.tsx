@@ -144,7 +144,7 @@ const Careers: React.FC = () => {
           {/* Message */}
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
-              Why are you interested in this position? 
+              Why are you interested in this position? *
             </label>
             <textarea
               value={formData.message}

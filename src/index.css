@@ -9,18 +9,18 @@ body {
 }
 .pre-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .main-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 48px;
   font-weight: 600; /* bold */
 }
 
 .sub-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 .logo-img {
   background: transparent;  /* doesn’t remove existing white fill */

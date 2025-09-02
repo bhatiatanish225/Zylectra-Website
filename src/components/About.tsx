@@ -25,7 +25,7 @@ const About = () => {
           {/* Thapar Innovate */}
           <div className="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-2xl border border-emerald-200 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 animate-fade-in-up">
             <Award className="w-10 h-10 sm:w-12 sm:h-12 text-emerald-600 mb-4" />
-            <h3 className="pre-heading text-gray-900 mb-3">
+            <h3 className="pre-heading text-gray-900 mb-3 font-bold text-gray-800">
               Thapar Innovate
             </h3>
             <p className="sub-heading text-gray-600">
@@ -47,13 +47,16 @@ const About = () => {
             style={{ animationDelay: '0.1s' }}
           >
             <GraduationCap className="w-10 h-10 sm:w-12 sm:h-12 text-emerald-600 mb-4" />
-            <h3 className="pre-heading text-gray-900 mb-3">
+            <h3 className="pre-heading text-gray-900 mb-3 font-bold text-gray-800">
               IHFC IIT Delhi
             </h3>
             <p className="sub-heading text-gray-600">
               Selected in the <span className="font-medium">READY Program</span> by IHFC IITD.
             </p>
+            <br />
+              
             <div className="mt-4 flex items-center gap-2">
+              
               <img
                 src="src/assets/ihfc.jpg"
                 alt="IHFC IIT Delhi Logo"
@@ -69,7 +72,7 @@ const About = () => {
             style={{ animationDelay: '0.2s' }}
           >
             <Star className="w-10 h-10 sm:w-12 sm:h-12 text-emerald-600 mb-4" />
-            <h3 className="pre-heading text-gray-900 mb-3">
+            <h3 className="pre-heading text-gray-900 mb-3 font-bold text-gray-800">
               Thapar Open Day 2025
             </h3>
             <p className="sub-heading text-gray-600">
@@ -81,7 +84,7 @@ const About = () => {
                 alt="Thapar Open Day Logo"
                 className="w-8 h-8 rounded-lg object-contain"
               />
-              <span className="text-xs text-gray-500">Thapar Open Day</span>
+              <span className="text-xs text-gray-500 ">Thapar Open Day</span>
             </div>
           </div>
         </div>

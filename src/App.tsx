@@ -31,11 +31,11 @@ function App() {
       <Section7/>
       <Section8/>
       <Section9/>
-      <Features />
-      <HowItWorks />
-      <Vision />
-      <Partnerships />
-      <ComingSoon />
+      {/* <Features /> */}
+      {/* <HowItWorks /> */}
+      {/* <Vision /> */}
+      {/* <Partnerships /> */}
+      {/* <ComingSoon /> */}
       <Careers />
       <CallToAction />
       <Footer />

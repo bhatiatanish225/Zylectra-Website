@@ -1,4 +1,5 @@
 import React from "react";
+import { scrollToSection } from "../utils/scrollToSection"; 
 
 const Section9 = () => {
   return (
@@ -9,7 +10,7 @@ const Section9 = () => {
           Your EV is ready for the{" "}
           <span className="text-emerald-600">upgrade</span>. Are you?
         </h2>
-
+<br/>
         {/* Copy */}
         <div className="mt-6 space-y-4 text-lg text-gray-700 leading-relaxed">
           <p>
@@ -29,7 +30,7 @@ const Section9 = () => {
         {/* CTA Button */}
         <div className="mt-10">
           <a
-            href="#waitlist"
+            onClick={() => scrollToSection("careers")}
             className="inline-block px-8 py-4 rounded-2xl bg-emerald-600 text-white font-semibold text-lg shadow-lg hover:bg-emerald-700 hover:scale-105 transition-transform"
           >
             Join the Early Access Waitlist Now 

@@ -43,7 +43,7 @@ const SectionTwo = () => {
                 animationDelay: `${index * 0.3 + 0.4}s`,
                 animationFillMode: "forwards",
               }}
-            >
+            > 
               <div className="mb-4">{item.icon}</div>
               <p className="text-lg text-gray-700 font-medium">{item.text}</p>
             </div>

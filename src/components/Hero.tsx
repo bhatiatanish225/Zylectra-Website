@@ -19,14 +19,14 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 sm:gap-3 mb-6">
-          <div className="relative">
+          {/* <div className="relative">
             <Zap className="w-8 h-8 sm:w-12 sm:h-12 text-emerald-600" />
             {/* <Brain className="w-4 h-4 sm:w-6 sm:h-6 text-emerald-500 absolute -top-1 -right-1" /> */}
           </div>
-          <h1 className="main-heading items center text-gray-900 tracking-tight">Zylectra Orbit</h1>
-        </div>
+          {/* <h1 className="main-heading items center text-gray-900 tracking-tight">Zylectra Orbit</h1> */}
+        {/* </div> */} 
 
-        <h2 className="sub-heading text-gray-700 mb-2 leading-snug">
+        <h2 className="pre-heading text-gray-700 mb-2 leading-snug">
           The EV revolution is here. 
           <span className="text-gray-600"> But it’s missing one thing…</span>
         </h2>
@@ -35,13 +35,16 @@ const Hero = () => {
           The operating system for your EV life.
         </p>
 
-        <p className="pre-heading text-gray-600 mb-4 max-w-3xl mx-auto leading-relaxed px-2">
-          Zylectra Orbit makes every EV smarter — from charging to routes to real-time insights.
-        </p>
-        <p className="pre-heading text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed px-2">
+        <p className="sub-heading text-gray-600 mb-4 max-w-3xl mx-auto leading-relaxed px-2">
+          Zylectra Orbit makes every EV smarter from charging to routes to real-time insights. 
+          <br /> 
           So you don’t just drive an EV, you drive the future.
         </p>
-
+        {/* <p className="pre-heading text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed px-2">
+          So you don’t just drive an EV, you drive the future.
+        </p> */}
+<br />
+          
         <button 
           onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}
           className="group bg-emerald-600 hover:bg-emerald-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 sm:gap-3 mx-auto animate-fade-in-up"

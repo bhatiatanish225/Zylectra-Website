@@ -39,7 +39,7 @@ const CallToAction = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email address"
+                  placeholder="email address"
                   className="w-full pl-10 sm:pl-12 pr-3 sm:pr-4 py-3 sm:py-4 rounded-full text-gray-900 bg-white border-0 focus:ring-4 focus:ring-emerald-300 outline-none text-base sm:text-lg"
                   required
                 />
