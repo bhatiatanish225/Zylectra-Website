@@ -19,9 +19,18 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 sm:gap-3 mb-6">
+<<<<<<< HEAD
          
           </div>
          
+=======
+          {/* <div className="relative">
+            <Zap className="w-8 h-8 sm:w-12 sm:h-12 text-emerald-600" />
+            {/* <Brain className="w-4 h-4 sm:w-6 sm:h-6 text-emerald-500 absolute -top-1 -right-1" /> */}
+          </div>
+          {/* <h1 className="main-heading items center text-gray-900 tracking-tight">Zylectra Orbit</h1> */}
+        {/* </div> */} 
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
 
         <h2 className="pre-heading text-gray-700 mb-2 leading-snug">
           The EV revolution is here. 
@@ -37,7 +46,13 @@ const Hero = () => {
           <br /> 
           So you don’t just drive an EV, you drive the future.
         </p>
+<<<<<<< HEAD
        
+=======
+        {/* <p className="pre-heading text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed px-2">
+          So you don’t just drive an EV, you drive the future.
+        </p> */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
 <br />
           
         <button 

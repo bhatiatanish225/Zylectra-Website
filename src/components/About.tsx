@@ -41,6 +41,10 @@ const About = () => {
             </div>
           </div>
 
+<<<<<<< HEAD
+=======
+          {/* IHFC IIT Delhi */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
           <div
             className="bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-2xl border border-emerald-200 hover:shadow-lg hover:-translate-y-2 transition-all duration-300 animate-fade-in-up"
             style={{ animationDelay: '0.1s' }}

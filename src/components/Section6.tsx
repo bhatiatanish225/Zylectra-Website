@@ -13,11 +13,23 @@ const Section6 = () => {
   return (
     <section className="relative py-20 px-6 bg-gradient-to-br from-emerald-50 via-green-50 to-emerald-100">
       <div className="max-w-6xl mx-auto text-center mb-12">
+<<<<<<< HEAD
         
         <h2 className="main-heading text-gray-900 mb-4">
           Be the EV owner everyone looks up to.
         </h2>
        
+=======
+        {/* <p className="pre-heading text-emerald-600 mb-2">
+          Smarter EV ownership
+        </p> */}
+        <h2 className="main-heading text-gray-900 mb-4">
+          Be the EV owner everyone looks up to.
+        </h2>
+        {/* <p className="sub-heading text-gray-600">
+          Compare the Zylectra way vs the old way of EV ownership.
+        </p> */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

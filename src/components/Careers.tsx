@@ -84,7 +84,11 @@ const Careers: React.FC = () => {
 
   return (
     <div id="careers" className="max-w-2xl mx-auto px-4 py-12">
+<<<<<<< HEAD
       
+=======
+      {/* Main Heading */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
       <h2 className="main-heading text-center mb-6">Join Our Team</h2>
 
       {isSubmittedSuccessfully ? (
@@ -93,7 +97,11 @@ const Careers: React.FC = () => {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
+<<<<<<< HEAD
           
+=======
+          {/* Name */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Full Name *
@@ -108,7 +116,11 @@ const Careers: React.FC = () => {
             />
           </div>
 
+<<<<<<< HEAD
        
+=======
+          {/* Email */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Email Address *
@@ -123,7 +135,11 @@ const Careers: React.FC = () => {
             />
           </div>
 
+<<<<<<< HEAD
           
+=======
+          {/* Position */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Position Applied For *
@@ -141,7 +157,11 @@ const Careers: React.FC = () => {
             </select>
           </div>
 
+<<<<<<< HEAD
           
+=======
+          {/* Message */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
           <div>
             <label className="pre-heading block text-gray-700 mb-1">
               Why are you interested in this position? *

@@ -33,6 +33,7 @@ const SectionTwo = () => {
         </p>
 
         <div className="grid sm:grid-cols-3 gap-8 mt-10">
+<<<<<<< HEAD
 
   
   <div
@@ -87,6 +88,22 @@ const SectionTwo = () => {
 </div>
 
 
+=======
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className={`bg-gray-50 hover:bg-emerald-50 transition-all duration-500 rounded-2xl shadow-md p-8 flex flex-col items-center justify-center text-center transform hover:-translate-y-2 opacity-0 animate-fade-up`}
+              style={{
+                animationDelay: `${index * 0.3 + 0.4}s`,
+                animationFillMode: "forwards",
+              }}
+            > 
+              <div className="mb-4">{item.icon}</div>
+              <p className="text-lg text-gray-700 font-medium">{item.text}</p>
+            </div>
+          ))}
+        </div>
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
       </div>
     </section>
   );

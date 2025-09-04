@@ -25,7 +25,16 @@ function App() {
       <SectionSix/>
       <Section7/>
       <Section8/>
+<<<<<<< HEAD
       <Section9/>  
+=======
+      <Section9/>
+      {/* <Features /> */}
+      {/* <HowItWorks /> */}
+      {/* <Vision /> */}
+      {/* <Partnerships /> */}
+      {/* <ComingSoon /> */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
       <Careers />
       <CallToAction />
       <Footer />

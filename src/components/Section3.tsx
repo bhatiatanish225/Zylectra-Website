@@ -41,9 +41,15 @@ const SectionThree = () => {
         </div>
 
        
+<<<<<<< HEAD
    
 <div className="grid sm:grid-cols-3 gap-10 mt-16">
   
+=======
+    {/* Screenshots Section */}
+<div className="grid sm:grid-cols-3 gap-10 mt-16">
+  {/* Card 1 */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
   <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
     <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
       <img 
@@ -58,6 +64,10 @@ const SectionThree = () => {
     </p>
   </div>
 
+<<<<<<< HEAD
+=======
+  {/* Card 2 */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
   <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
     <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
       <img 
@@ -72,7 +82,11 @@ const SectionThree = () => {
     </p>
   </div>
 
+<<<<<<< HEAD
  
+=======
+  {/* Card 3 */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
   <div className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all transform hover:-translate-y-2 border border-gray-100">
     <div className="relative w-full h-64 bg-gray-50 rounded-xl overflow-hidden border border-gray-200 mb-4">
       <img 

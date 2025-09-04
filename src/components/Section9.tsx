@@ -11,7 +11,11 @@ const Section9 = () => {
           <span className="text-emerald-600">upgrade</span>. Are you?
         </h2>
 <br/>
+<<<<<<< HEAD
         
+=======
+        {/* Copy */}
+>>>>>>> 727a92252f3923c74e38809475714dc5f607b398
         <div className="mt-6 space-y-4 text-lg text-gray-700 leading-relaxed">
           <p>
             <span className="font-semibold text-emerald-700">Orbit</span> is just
