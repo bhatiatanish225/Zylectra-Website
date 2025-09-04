@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-// import zylectraLogo from "../assets/logo.png"; // replace with your transparent logo
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,22 +32,20 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <div
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
-            {/* <img
-              src={zylectraLogo}
+            <img
+              src="src\assets\image.jpg"
               alt="Zylectra Logo"
-              className="w-10 h-10 object-contain"
-            /> */}
+              className="w-10 h-10 object-contain mix-blend-multiply"
+            />
             <span className="text-xl font-poppins font-bold text-gray-900">
               Zylectra
             </span>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6 font-inter text-sm">
             <button
               onClick={() => scrollToSection("about")}
@@ -81,7 +79,6 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 rounded-lg hover:bg-emerald-50 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -94,7 +91,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-emerald-100/50 py-4 mt-3 rounded-xl shadow-md">
             <div className="flex flex-col space-y-3 font-inter text-sm">
